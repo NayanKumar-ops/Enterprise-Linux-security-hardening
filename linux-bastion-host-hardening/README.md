@@ -1,18 +1,21 @@
 # Linux Bastion Host Hardening
 
-This project demonstrates hardening a Linux bastion host by
-restricting network access, securing SSH, and validating changes
-using Nmap scans.
+This project demonstrates securing a Linux bastion host by
+restricting network access, hardening SSH, and validating
+exposure using Nmap scans.
 
 ## Implemented Controls
 - SSH port exposure verification
-- Firewalld configuration
+- Firewall configuration using firewalld
 - SSH brute-force rate limiting
-- Validation using Nmap
+- Validation with Nmap
 
 ## Tools Used
 - Rocky Linux
-- Firewalld
+- firewalld
 - OpenSSH
 - Nmap
 
+## Documentation
+Detailed steps and screenshots are available in:
+report/linux-bastion-hos

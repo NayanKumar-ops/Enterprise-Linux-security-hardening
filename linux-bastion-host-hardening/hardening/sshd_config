@@ -1,1 +1,7 @@
-
+Port 22
+Protocol 2
+PermitRootLogin no
+PasswordAuthentication yes
+MaxAuthTries 3
+LoginGraceTime 30
+UsePAM yes

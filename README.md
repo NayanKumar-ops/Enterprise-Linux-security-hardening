@@ -1,2 +1,1 @@
-nnok...soon coming 1 week...
-.
+soon
